@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0 3%;
+}
+
+/* Page heading */
+.page-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 42px;
+    color: black;
+}
+
+/* Main products area */
+.products-container {
+    background-color: #eeeeee;
+    padding: 32px 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
+}
+
+/* Individual product card */
+.product-card {
+    background-color: white;
+    border: 2px solid #a4f5b3;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+    min-width: 0;
+}
+
+/* Image container */
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 210px;
+    
+}
+
+/* Product image */
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+
+}
+
+/* Shopping cart circle */
+.cart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    color: #50ed79;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Hover effect for cart */
+.cart-icon:hover {
+    background-color: #50ed79;
+    color: white;
+}
+
+/* Product information */
+.product-details {
+    padding: 12px 14px 10px;
+}
+
+/* New badge */
+.new-label {
+    display: inline-block;
+    background-color: #50f578;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+/* Product name */
+.product-details h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #111;
+}
+
+/* Price and buy button */
+.product-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+/* Price */
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Buy button */
+.buy-button {
+    background-color: #42f568;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    width: 55%;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Buy button hover */
+.buy-button:hover {
+    background-color: #24d94b;
+}
+
+/* Responsive layout for tablets */
+@media (max-width: 550px) {
+    .products-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .page-title {
+    font-size: 38px;
+    }
+    }
+
+    /* Responnsive layout for mobile phones */
+
+    @media (max-width: 550px) {
+    body {
+    padding: 0 15px;
+    }
+
+    .products-container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 20px;
+    }
+
+    .page-title {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .product -image {
+        height: 220px;
+    }
+    }

@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+th{
+    border: 1px solid lightgray;
+    background-color: rgb(95, 186, 4);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+td{
+    padding: 20px;
+    font-size: 15px;
+    border-bottom:1px solid lightgray;
+    border:1px solid lightgray;
+    text-align: left;
+    margin: 5px;
+    
+}
+
+.table-container{
+    width: 100%;
+    border: 1px solid ;
+    overflow-x: ;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 300px;
+}
+
+.footer{
+    background-color: dimgrey;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+tr:nth-child(3) {
+    background-color: whitesmoke;
+}

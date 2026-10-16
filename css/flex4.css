@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: ghostwhite;
+}
+
+.about{
+    margin: 80px;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 40px;
+    height: 100px;
+    width: 70%;
+    margin: 80px;
+    
+}
+
+.about-content{
+    background: white;
+    display: flex;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px lavender;
+    text-align: left;
+}
+.about-content h2{
+    color: midnightblue;
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.about-content p{
+    color: dimgray;
+    font-size: 13px;
+    margin-top: 8px;
+}
+

@@ -1,0 +1,18 @@
+.test{
+    background-color: blue;
+
+    margin: 30px;
+
+    padding: 20px;
+
+    border: 5px solid;
+
+}
+
+.test h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+
+    font-style: italic;
+}

@@ -1,0 +1,19 @@
+/* CLASS SELECTOR */
+
+.box{
+    background-color: deeppink;
+
+    margin: 30px;
+
+  padding: 5px 20px;
+}
+
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box p{
+  color: grey;
+}
